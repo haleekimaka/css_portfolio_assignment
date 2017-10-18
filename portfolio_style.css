@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+    .wrapper{
+        width: 970px;
+        background: radial-gradient(circle,rgb(151, 125, 136),rgb(49, 28, 49));
+    }
+    .top_bar{
+        height: auto;
+        background-color: rgb(244,244,244);
+        display: inline-block;
+    }
+    .name{
+        height: auto;
+        width: 483px;
+        background-color: rgb(244,244,244);
+        display: inline-block;
+
+    }
+    .caption{
+        height: auto;
+        width: 483px;
+        background-color: rgb(244,244,244);
+        display: inline-block;
+
+    }
+    .main_pic{
+        width: 415px;
+        height: 273px;
+        background-color: lightblue;
+        display: inline-block;
+        margin: 20px 10px 10px 20px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: silver;
+    }
+
+    .main_pic img{   
+          max-width:100%; 
+          max-height:100%;
+          margin:auto;
+          display:block;
+    
+    }
+    .about{
+        width: 475px;
+        height: 283px;
+        background-color: none;
+        display: inline-block;
+        vertical-align: top;
+        margin: 20px 20px 10px 10px;
+    }
+    .header{
+        width: auto;
+        height: 40px;
+        background: linear-gradient(to bottom,rgb(173,171,176),rgb(140,136,150),rgb(173,171,176));
+        display: block;
+    }
+    .text{
+        width: auto;
+        height: 243px;
+        background: linear-gradient(to right,white,thistle);
+        display: block;
+    }
+    .column{
+        width: 292px;
+        height: 540px;
+        background-color: white;
+        display: inline-block;
+        margin: 10px 0px 20px 20px;
+    }
+    .pic img{
+        width: 292px;
+        height: auto;
+        display: block;
+
+    }
+    .col_text{
+        width: auto;
+        height: 150px;
+        background: linear-gradient(to right,white,thistle);
+        display: block;
+    }
+    .images{
+        width: auto;
+        height: 140px;
+        background: linear-gradient(to right,white,thistle);
+        display: block;
+        padding: 5px;
+
+    }
+    .name p {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        color: black;
+        padding: 5px 25px;
+    }
+    .caption p {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        color: black;
+        padding: 20px 40px;
+        text-align: right;
+    }
+    .header p {
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        padding: 10px 10px;
+    }
+    .header_tech {
+        width: auto;
+        height: 40px;
+        background: linear-gradient(to bottom,rgb(173,171,176),rgb(140,136,150),rgb(173,171,176));
+        display: block;
+    }
+
+    .header_tech p {
+        font-size: 17px;
+        color: white;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        padding: 10px 10px;
+
+    }
+    .text p {
+        font-size: 16px;
+        color: black;
+        font-weight: normal;
+        font-family: Arial, sans-serif;
+        padding: 10px;
+
+    }
+    .col_text p {
+        font-size: 13px;
+        color: black;
+        font-weight: normal;
+        font-family: Arial, sans-serif;
+        padding: 10px;
+    }
+
+    .link {
+        text-decoration: underline;
+
+    }
+    .badge {
+        height: 40x;
+        width: 40px;
+        margin: 5px 5px;
+        display: inline-block;
+    }
+
+    .button {
+        height: 25px;
+        width: auto;
+        padding: 5px;
+        display: block;
+        margin: 0 auto;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: #397d63;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        box-shadow: 4px 4px 10px grey;
+        border-radius: 10px;
+    }
